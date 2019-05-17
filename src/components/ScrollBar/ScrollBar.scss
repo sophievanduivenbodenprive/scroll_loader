@@ -5,7 +5,6 @@
   width: 100vw;
   position: fixed;
   background: #161616;
-}
 
   .bar {
     height: 5px;
@@ -13,10 +12,11 @@
     background: $greenDark;
     position: absolute;
     bottom: 0;
-  }
 
     .barfiller {
       height: 100%;
       width: 300px;
       background: $greenLight;
     }
+  }
+}
