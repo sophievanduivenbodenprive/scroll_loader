@@ -9,9 +9,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: $greyColor;
+  background: linear-gradient($greyColor, $greyMedium);
 
   .App {
     text-align: center;
     height: auto;
+    height: 5000px;
+
+    .copy {
+      font-size: 80px;
+      color: $greyLight;
+      text-align: center;
+      position: fixed;
+      top: 50vh;
+      left: 50vw;
+      transform: translate(-50%, -50%);
+    }
   }
 }

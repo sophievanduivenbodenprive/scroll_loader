@@ -5,7 +5,9 @@ class ScrollBar extends React.Component {
   render(){
     return (
       <div className="ScrollBar">
-        Ik ben een basis.
+        <div className="bar">
+          <div className="barfiller" />
+        </div>
       </div>
     );
   }

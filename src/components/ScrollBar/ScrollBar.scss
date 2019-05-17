@@ -1,0 +1,22 @@
+@import "../../variables";
+
+.ScrollBar {
+  height: 60px;
+  width: 100vw;
+  position: fixed;
+  background: #161616;
+}
+
+  .bar {
+    height: 5px;
+    width: 100%;
+    background: $greenDark;
+    position: absolute;
+    bottom: 0;
+  }
+
+    .barfiller {
+      height: 100%;
+      width: 300px;
+      background: $greenLight;
+    }
