@@ -11,6 +11,28 @@ class App extends React.Component {
     };
   }
 
+  componentDidMount() {
+    window.addEventListener('scroll', this.calculateScrollPosition)
+  }
+  
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.calculateScrollPosition)
+  }
+  
+  calculateScrollPosition = () => {
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  
+    const height =
+      document.documentElement.scrollHeight -
+      document.documentElement.clientHeight;
+  
+    const scrolled = (winScroll / height)*100;
+  
+    this.setState({
+      scrollpercentage: scrolled.toFixed(2)
+    })
+  }
+
   render(){
     return (
       <div className="App">
