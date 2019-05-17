@@ -6,7 +6,9 @@ class ScrollBar extends React.Component {
     return (
       <div className="ScrollBar">
         <div className="bar">
-          <div className="barfiller" />
+          <div className="barfiller" style={{
+            width: this.props.scrolledpage + 'vw'
+          }}/>
         </div>
       </div>
     );

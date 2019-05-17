@@ -3,7 +3,7 @@ import './App.scss';
 import ScrollBar from '../ScrollBar/ScrollBar';
 
 class App extends React.Component {
-
+  
   constructor(props) {
     super(props);
     this.state = {
@@ -37,7 +37,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="copy">{this.state.scrollpercentage}%</div>
-        <ScrollBar />
+        <ScrollBar scrolledpage={this.state.scrollpercentage}/>
       </div>
     );
   }
