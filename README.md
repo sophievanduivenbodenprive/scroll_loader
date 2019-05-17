@@ -1,5 +1,5 @@
 This is a small snippet that I use for my portfolio page [Sophie van Duivenboden](http://www.sophievanduivenboden.nl/).
-It's a small interaction snippet where the different squares will follow the cursor. 
+It's a small snippet that calculates the width of a bar, depending on how far you have scrolled on the page. For me, I would use as a little something extra for the nav of my page.
 
 I hope you enjoy it!
 Feel free to download and use!
